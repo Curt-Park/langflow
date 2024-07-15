@@ -644,7 +644,7 @@ class Vertex:
                 custom_params=custom_params,
                 vertex=self,
                 fallback_to_env_vars=fallback_to_env_vars,
-                base_type=self.base_type
+                base_type=self.base_type,
             )
 
             self.outputs_logs = build_output_logs(self, result)
